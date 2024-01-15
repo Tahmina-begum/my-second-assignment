@@ -1,0 +1,76 @@
+
+*{
+    font-family: Mulish;
+}
+header{
+    background-color:lemonchiffon;
+    padding: 50px  130px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-img{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 40px;
+    height: 35px;
+}
+.nav-title{
+    font-size: 36px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    color: #424247;
+    text-align: center;
+    /* font-family: Mulish; */
+    font-size: 18px;
+    font-weight: 400;
+}
+.travel{
+    color: #FF5400;
+}
+.banner{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1070px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 50px auto;
+    text-align: center;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding: 100px 240px 0px; 
+    margin-bottom: 5px;  
+}
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.banner-input{
+    /* width: 90px; */
+    height: 82px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 16px 20px;
+}
+.btn-primary{
+    background-color: #FF5400;
+    color: #FFF;
+}
