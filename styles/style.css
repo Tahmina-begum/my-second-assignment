@@ -232,4 +232,50 @@ nav li {
 
     /* responsive styles */
     /* mobile devices */
-    
+    @media screen and (max-width:600px) {
+        *{ 
+            margin: 10px;
+            padding: 8px;
+        }
+        .banner , background-img{
+            width: 100%;
+            background-size: cover;
+            margin: 0px;
+        }
+        *img{
+            width: 50%;
+            height: 50%;
+        }
+        nav,
+        .nav-img,
+        nav > ul,
+        .banner-input,
+        .tour,
+        .place,
+        .newsletter,
+        .choose-img
+        {
+            flex-direction: column;
+        }
+        .tour-title{
+            text-align: center;
+            margin-top: auto;
+        }
+        .destination , .destination-title{
+            margin-top: 130px;
+        }
+        .tour-description li{
+            margin-bottom: 0px;
+        }
+        
+        .row{
+            display: grid;
+            grid-template-columns: repeat(1 , 1fr);
+            width: 50%;
+            height: 50%;
+            margin: 1opx;
+        }
+        .row{
+            margin-right: auto;
+        }
+    }
